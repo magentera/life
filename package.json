@@ -1,6 +1,6 @@
 {
-  "name": "30-seconds-of-interviews",
-  "description": "The curated collection of common interview questions to help you prepare for your next interview.",
+  "name": "akoyu",
+  "description": "A curated collection of experiences from my human existence.",
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
@@ -14,14 +14,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fejes713/30-seconds-of-interviews"
+    "url": "https://github.com/magentera/life"
   },
-  "author": "Stefan Fejes (ns.fejes.stefan@gmail.com)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/fejes713/30-seconds-of-interviews/issues"
-  },
-  "homepage": "https://30secondsofinterviews.org/",
+  "author": "Mathew Stevenon (mathew.stevenson@hotmail.co.uk)",
+  "license": "TODO: Add license",
+  "homepage": "TODO: Add url",
   "dependencies": {
     "@hyperapp/router": "^0.7.1",
     "@hyperapp/transitions": "^1.0.2",
