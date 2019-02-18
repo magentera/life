@@ -19,18 +19,19 @@ export default props => (state, actions) => {
   return (
     <div>
       <HeaderTop />
-      <ul>
-        <li>
-          <button
-            type="submit"
-            onclick={() => {
-              window.history.back()
-            }}
-          >
-            Back
-          </button>
-        </li>
-      </ul>
+
+      <span>
+        <span
+          onclick={() => {
+            window.history.back()
+          }}
+        >
+          <a>Home</a>
+        </span>
+        <span> / </span>
+        <span>{item.name}</span>
+      </span>
+
       <div class="Topic-wrapper">
         <div class="Topic">
           <div class="444">
