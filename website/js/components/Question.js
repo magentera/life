@@ -27,7 +27,6 @@ export default ({
     onclick={() => {
       actions.onAnswerMoveToDetailClick({ name })
     }}
-    //onclick={() => actions.onAnswerButtonClick({ name, isOpen })}
   >
     <div class={`Question__badge is-${EXPERTISE_STRINGS[expertise]}`}>
       {EXPERTISE_STRINGS[expertise]}
@@ -53,7 +52,6 @@ export default ({
           ))}
         </ul>
       </div>
-
       <div />
     </div>
   </li>

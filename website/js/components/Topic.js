@@ -7,6 +7,7 @@ import Markdown from "./Markdown"
 
 import { Enter, Exit, Move } from "@hyperapp/transitions"
 import HeaderTop from "./HeaderTop"
+import BreadCrumb from "./BreadCrumb"
 
 import Footer from "./Footer"
 
@@ -19,18 +20,7 @@ export default props => (state, actions) => {
   return (
     <div>
       <HeaderTop />
-
-      <span>
-        <span
-          onclick={() => {
-            window.history.back()
-          }}
-        >
-          <a>Home</a>
-        </span>
-        <span> / </span>
-        <span>{item.name}</span>
-      </span>
+      <BreadCrumb urls={[item.name]} />
 
       <div class="Topic-wrapper">
         <div class="Topic">
